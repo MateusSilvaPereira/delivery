@@ -1,0 +1,45 @@
+
+.box{
+    background-color:rgb(66, 60, 60);
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box h1{
+    color: yellow;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.box p{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.foodBox{
+    padding: 10px 5px;
+}
+.foodBox img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.foodBox h1{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.btn_pedido{
+    color: rgb(234, 187, 98);
+    background-color:rgb(82, 82, 219);
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}

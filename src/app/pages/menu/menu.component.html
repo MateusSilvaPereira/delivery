@@ -1,0 +1,15 @@
+
+<div class="container mt-4 mb-5 ">
+    <h1 class="text-center">Comidas Favoritas <i class="bi bi-star-fill" style="color: rgba(242, 203, 11, 0.775);"></i></h1>
+    <div class="row">
+        <div class="col-lg-3" *ngFor="let fd of foodData">
+            <div class="foodBox mat-elevation-z8">
+                <img src="{{fd.foodImage}}"/>
+                <h1>{{fd.foodName}}</h1>
+                <p>{{fd.foodDetails}}</p>
+                <p style="color: brown;">{{fd.foodPrice | currency:'BRL'}}</p>
+                <a class="btn_pedido" [routerLink]="['/menupage', fd.id]">Fazer Pedido <i class="bi bi-bag-fill"></i></a>
+            </div>
+        </div>
+    </div>
+    </div>

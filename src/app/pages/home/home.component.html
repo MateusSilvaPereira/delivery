@@ -1,0 +1,44 @@
+<div class="banner  mat-elevation-z8">
+    <div class="content">
+        <p id="p1" class="mb-3">Faça seu pedido Delivery.com.br</p>
+        <a routerLink="menu">Fazer Pedido <i class="bi bi-arrow-right"></i> </a>
+    </div>
+</div>
+
+<div class="container mt-5 mb-5">
+    <h1 class="text-center">Como Obter Comida Fresca</h1>
+    <div class="row">
+        <div class="col-lg-4 mt-2">
+            <div class="box">
+                <h1>1</h1>
+                <p>Selecione o Tipo</p>
+            </div>
+        </div>
+        <div class="col-lg-4 mt-2">
+            <div class="box">
+                <h1>2</h1>
+                <p>Preenche os detalhes</p>
+            </div>
+        </div>
+        <div class="col-lg-4 mt-2">
+            <div class="box">
+                <h1>1</h1>
+                <p>Entrega do pedido em minutos</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-4 mb-4">
+    <h1 class="text-center">Comidas Favoritas <i class="bi bi-star-fill" style="color: rgba(242, 203, 11, 0.775);"></i></h1>
+    <div class="row">
+        <div class="col-lg-3" *ngFor="let fd of foodData">
+            <div class="foodBox  mat-elevation-z4">
+                <img src="{{fd.foodImage}}"/>
+                <h1>{{fd.foodName}}</h1>
+                <p style="color: brown;">{{fd.foodPrice | currency:'BRL'}}</p>
+            </div>
+        </div>
+    </div>
+    <a routerLink="menu" class="maisopcoes"> <i class="bi bi-plus-lg"></i> Opções</a>
+</div>

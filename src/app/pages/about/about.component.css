@@ -1,0 +1,13 @@
+.text{
+    font: oblique;
+    color: rgb(199, 117, 10);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.btn{
+    color: white;
+    background-color: chocolate;
+    border: none;
+
+}

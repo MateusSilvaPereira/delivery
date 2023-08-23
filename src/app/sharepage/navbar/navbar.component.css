@@ -1,0 +1,13 @@
+.navbar-light .navbar-nav .nav-link.active-link{
+    color: var(--primeira-cor);
+    font-weight: bolder;
+}
+a{
+    font-weight: unset;
+}
+
+img{
+    width: 30px;
+    height: 20;
+    cursor: pointer;
+}
