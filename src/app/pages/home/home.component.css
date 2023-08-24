@@ -4,6 +4,8 @@
     background-position: center top;
     background-size: cover;
 }
+
+
 .content{
     top: 14%;
     left: 20%;
@@ -74,10 +76,11 @@
 }
 
 #p1{
-    color: aliceblue;
-    font-size: 43px;
+    color: white;
+    font-size: 33px;
     background-position: center top;
     background-size: cover;
+    
 }
 .row{
     margin-bottom: 2rem;

@@ -1,8 +1,9 @@
 .text{
     font: oblique;
-    color: rgb(199, 117, 10);
+    color: rgb(101, 98, 92);
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
+    line-height: 2rem;
 }
 
 .btn{
